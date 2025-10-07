@@ -1,0 +1,45 @@
+
+
+:root {
+    font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: black;
+
+    text-align: center;
+}
+.light {
+    background-color: burlywood;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.dark {
+    background-color: #000000;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    a {
+        color: lime;
+    }
+    #darkbtn {
+        background-color: burlywood;
+        color: white;
+    }
+
+}
+
+
+
+#darkbtn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
