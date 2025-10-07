@@ -19,7 +19,6 @@ function toggleMode() {
 
     } else {
         document.getElementById("darkbtn").innerHTML = "🌙";
-
     }
     document.body.classList.toggle("dark");
     document.body.classList.toggle("light");
